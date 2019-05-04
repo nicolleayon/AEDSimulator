@@ -1,0 +1,32 @@
+.container-AED{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+#AED-img{
+  /* width:130%;
+  height: 130%; */
+}
+
+/* .container-AED .btn { */
+#btn{
+  position: absolute;
+  top: 98%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #DA0404;
+  color: white;
+  font-size: 32px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 80px;
+  text-align: center;
+}
+
+/* .container-AED .btn:hover  */
+#btn:hover {
+  background-color: black;
+}
