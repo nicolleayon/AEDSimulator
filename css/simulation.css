@@ -12,7 +12,7 @@
 /* .container-AED .btn { */
 #btn{
   position: absolute;
-  top: 98%;
+  top: 99%;
   left: 60%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -23,6 +23,19 @@
   border: none;
   cursor: pointer;
   border-radius: 80px;
+  text-align: center;
+}
+
+#btn2{
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffde59;
+  border: none;
+  cursor: pointer;
+  border-radius: 120px;
   text-align: center;
 }
 
