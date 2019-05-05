@@ -29,7 +29,7 @@
 #btn2{
   position: absolute;
   top: 50%;
-  left: 60%;
+  left: 65%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #ffde59;
@@ -42,4 +42,10 @@
 /* .container-AED .btn:hover  */
 #btn:hover {
   background-color: black;
+}
+
+#playing{
+  position: absolute;
+  top: 55%;
+  z-index: 10%;
 }
