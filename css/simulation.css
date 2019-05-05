@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-#btn2{
+#powerbtn{
   position: absolute;
   top: 50%;
   left: 65%;
@@ -40,9 +40,9 @@
 }
 
 /* .container-AED .btn:hover  */
-#btn:hover {
+/* #btn:hover {
   background-color: black;
-}
+} */
 
 #playing{
   position: absolute;

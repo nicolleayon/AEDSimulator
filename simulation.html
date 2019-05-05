@@ -27,6 +27,7 @@
 </head>
 
 <body id="simulation">
+  <script src="js/simulation.js"></script>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -41,7 +42,7 @@
   <!-- AED Section -->
   <section class="page-section" id="contact" style="background:#a3c2c2">
     <div class="container-AED">
-      <script src="simulation.js"></script>
+
       <!-- <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">Let's Get In Touch!</h2>
@@ -55,8 +56,9 @@
         <iframe width="420" height="315" id="playing"
           src="https://www.youtube.com/embed/0jaqSFCNrX0">
         </iframe>
-        <button type="button" id="btn" onclick="myFunction()">Click Me!</button>
-        <button type="button" id=btn2 ><img src="img/green-pw-btn.png" style="width:90px;height:90px;" ></button>
+        <button type="button" id="btn" onclick="myFunction2()">Click Me!</button>
+        <img src=" " id="powerbtn" onclick="turnOnOff()" style="width:90px; height:90px;">
+        <img src="img/black-pw-btn.png" id="powerbtn" onclick="turnOnOff()" style="width:90px; height:90px;" >
         <!-- <div class="col-lg-4 ml-auto text-center">
           <i class="fas fa-phone fa-3x mb-3 te}xt-muted"></i>
           <div>+1 (111)123-4567</div>
