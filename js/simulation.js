@@ -3,6 +3,8 @@ function main() {
   // Retrieve <canvas>, colors, and button element
   var btn = document.getElementById('btn')
   var powerbtn = document.getElementById('powerbtn');
+  var shockbtn = document.getElementById('shockbtn');
+  var blank = document.getElementById('blank');
 
   // btn.style.color = "red";
   //btn.onclick = function() {myFunction2()};
@@ -12,21 +14,30 @@ function main() {
 
 }
 
-function myFunction2() {
-    document.getElementById("btn").style.color = "yellow";
-    setTimeout(myFunction3, 3000);
-}
-function myFunction3() {
-    document.getElementById("btn").style.color = "white";
-}
-
-function turnOnOff() {
-    // document.getElementById("btn").style.backgroundColor = "red";
-    if (powerbtn.src.match("black-pw-btn.png")){
-      powerbtn.src="img/green-pw-btn.png";
+function shockButton() {
+    if (shockbtn.src.match("img/shockOff.png")){
+      shockbtn.src="img/shockOn.png";
     }
     else{
+      shockbtn.src="img/shockOff.png";
+    }
+}
+
+//turns power button on and off (colors turn green and black )
+function turnOnOff() {
+    //if power button is off, turn on and display screen (aka hide black box)
+    if (powerbtn.src.match("black-pw-btn.png")){
+      powerbtn.src="img/green-pw-btn.png";
+      blank.style.display="none";
+    }
+    //else turn off and turn off screen
+    else{
       powerbtn.src="img/black-pw-btn.png";
+      blank.style.display="block";
     }
     // btn.style.color = "blue";
 }
+
+// function hide(){
+//   this.
+// }
