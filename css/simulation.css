@@ -9,7 +9,7 @@
   height: 315px;
   background: black;
   position: absolute;
-  top: 55%;
+  top: 65%;
   z-index: 3;
 }
 
@@ -21,7 +21,7 @@
 /* .container-AED .btn { */
 #shockbtn{
   position: absolute;
-  top: 90%;
+  top: 110%;
   left: 60%;
   /* transform: translate(-50%, -50%); */
   /* -ms-transform: translate(-50%, -50%); */
@@ -37,8 +37,8 @@
 #powerbtn{
   position: absolute;
   /* align-self: center; */
-  top: 40%;
-  left: 60%;
+  top: 55%;
+  left: 65%;
   /* transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); */
   border: none;
@@ -54,6 +54,6 @@
 
 #playing{
   position: absolute;
-  top: 55%;
+  top: 65%;
   z-index: 1;
 }
